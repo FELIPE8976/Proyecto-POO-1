@@ -2,26 +2,24 @@
 
 using std::string;
 
-void Mascota::mostrarDatosMascotas(){
+bool getStatus(){
 	return;
 }
-
-void Mascota::mostrarPropietariosMascotas(){
+string getSangre(){
+	return "";
+}
+string getFechaDefuncion(){
+	return "";
+}
+float getPeso(){
+	return 0;
+}
+int getEdad(){
+	return 0;
+}
+char getTipo(){
 	return;
 }
-
-void Mascota::imprimirPropietarios(){
-	return;
-}
-
-void Mascota::asociarPropietario(){
-	return;
-}
-
-void Mascota::cambiarStatus(){
-	return;
-}
-
-void Mascota::eliminarPropietario(){
-	return;
+string getNombre(){
+	return "";
 }

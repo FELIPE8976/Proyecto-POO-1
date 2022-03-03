@@ -13,18 +13,19 @@ class Mascota{
     char tipo;
     float peso;
     int edad;
-    char tipoSangre;
+    string tipoSangre;
     string nombre;
     int id;
     bool status; // 1 es viva, 0 es muerta
-    vector<Propietario> propietarios;
+    string fechaDefuncion;
   public:
-    void mostrarDatosMascotas();
-    void mostrarPropietariosMascotas();
-    void imprimirPropietarios();
-    void asociarPropietario();
-    void cambiarStatus();
-    void eliminarPropietario();
+    bool getStatus();
+    string getSangre();
+    string getFechaDefuncion();
+    float getPeso();
+    int getEdad();
+    char getTipo();
+    string getNombre();
 };
 
 #endif

@@ -10,20 +10,14 @@ using std::vector;
 
 class Propietario{
   private:
-    char tipo;
-    float peso;
-    int edad;
-    char tipoSangre;
     string nombre;
-    vector<Mascota> mascotas;
+    int id;
+    string email;
+    int telefono;
   public:
-    void agregarPropietario();
-    void modificarPropietario();
-    void eliminarPropietario();
-    void listarContacto();
-    int contarPropietarios();
-    void mostrarMascotasPropietario();
-    void asociarMascota();
+    int getTelefono();
+    string getEmail();
+    string getNombre();
 };
 
 #endif

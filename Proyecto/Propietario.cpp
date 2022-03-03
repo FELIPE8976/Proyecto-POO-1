@@ -1,29 +1,11 @@
 #include "Propietario.h"
 
-void Propietario::agregarPropietario(){
-	return;
+int getTelefono(){
+		 return 0;
 }
-
-void Propietario::modificarPropietario(){
-	return;
+string getEmail(){
+	return "";
 }
-
-void Propietario::eliminarPropietario(){
-	return;
-}
-
-void Propietario::listarContacto(){
-	return;
-}
-
-int Propietario::contarPropietarios(){
-	return 0;
-}
-
-void Propietario::mostrarMascotasPropietario(){
-	return;
-}
-
-void Propietario::asociarMascota(){
-	return;
+string getNombre(){
+	return "";
 }
